@@ -9,21 +9,21 @@
         "sourceType": "module"
     },
     "rules": {
-        "indent": [
-            "error",
-            "tab"
-        ],
-        "linebreak-style": [
-            "error",
-            "unix"
-        ],
-        "quotes": [
-            "error",
-            "single"
-        ],
-        "semi": [
-            "error",
-            "never"
-        ]
+        "indent": [ "error", "tab" ],
+        "linebreak-style": [ "error", "unix" ],
+        "quotes": [ "error", "single" ],
+        "semi": [ "error", "never" ],
+        "no-console": [ "warn"],
+        "no-empty": "warn",
+        "arrow-spacing": ["error", { "before": true, "after": true }],
+        "comma-spacing": ["error", { "before": false, "after": true }],
+        "no-multiple-empty-lines": ["error", { "max": 2 }],
+        "arrow-body-style": ["error", "as-needed"],
+        "dot-notation": "error",
+        "eqeqeq": "error",
+        "no-else-return": "error",
+        "camelcase": ["error", { "properties": "always" }],
+        "prefer-destructuring": ["error", { "array": true, "object": true }, { "enforceForRenamedProperties": false }]
+
     }
 }
